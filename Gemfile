@@ -55,6 +55,7 @@ end
 gem 'pundit'
 # Use postgresql as the database for Active Record
 # gem 'pg', '~> 0.15'
+gem 'sqlite3'
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
 # Use SCSS for stylesheets
