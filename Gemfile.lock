@@ -285,7 +285,7 @@ DEPENDENCIES
   mailcatcher
   money-rails
   paperclip (~> 5.0.0)
-  pg (~> 0.15)
+  pg
   pundit
   rails (= 4.2.5)
   rails-assets-animate-css!
