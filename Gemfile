@@ -54,8 +54,7 @@ end
 # Minimal authorization through OO design and pure Ruby classes
 gem 'pundit'
 # Use postgresql as the database for Active Record
-# gem 'pg', '~> 0.15'
-gem 'sqlite3'
+gem 'pg', '~> 0.15'
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
 # Use SCSS for stylesheets
@@ -108,6 +107,5 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
