@@ -10,7 +10,7 @@ gem 'devise-i18n'
 # Rails gem of the Bootstrap based admin theme SB Admin 2
 gem 'bootstrap_sb_admin_base_v2'
 # Catches mail and serves it through a dream.
-gem 'mailcatcher'
+# gem 'mailcatcher'
 # A library for generating fake data such as names, addresses, and phone numbers.
 gem 'faker'
 # Markdown Lorem Ipsum generator
