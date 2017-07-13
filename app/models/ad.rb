@@ -15,7 +15,7 @@ class Ad < ActiveRecord::Base
   has_many :comments
 
   # Validates
-  validates :title, :description_md, :description_short, :category, :picture, :finish_date, presence: true
+  validates :title, :description_short, :category, :picture, :finish_date, presence: true
   validates :price, numericality: {greater_than: 0}
 
   # scopes
@@ -59,8 +59,6 @@ class Ad < ActiveRecord::Base
     renderer = Redcarpet::Render::HTML.new(options)
     markdown = Redcarpet::Markdown.new(renderer, extensions)
 
-
-    self.description = markdown.render(self.description_md).html_safe
   end
 
 end
